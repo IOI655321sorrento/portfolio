@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+body{
+    background-image: url('../IMG/background2324.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+.topnav {
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+.dd {
+    position: relative;
+}
+.ddc {
+    display: none;
+    position: absolute;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+
+.dd:hover .ddc {
+    display: block;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1em;
+    color: blue;
+    background-color: black;
+    transition: all ease 0.25s;
+    opacity: 0.8;
+}
+.nav ul li a:visited{
+        color: blue;
+    background-color: black;
+    transition: all ease 0.25s;
+    opacity: 0.8;
+}
+.nav ul li a:active{
+        color: blue;
+    background-color: black;
+    transition: all ease 0.25s;
+    opacity: 0.8;
+}
+nav ul li a:hover {
+    color:lightblue;
+    background-color: black;
+}
+.dda {
+    position: relative;
+}
+.ddca {
+    display: none;
+    position: absolute;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+}
+.dda:hover .ddca{
+    display: block;
+    text-align: center;
+}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;    
+
+  max-width: 1950px; 
+
+  padding-right: 10px; 
+  padding-left:  10px; 
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3em;
+}
+
+
+.wrapper:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.prof{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-bar {
+    display: inline-block;
+    background-color: black;
+    opacity: 0.8;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    max-width: inherit;
+    overflow: hidden;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    font-family: Shadows into light, cursive;
+    position: fixed;
+    bottom: 0;
+}
+.contact-bar ul:nth-child(1){
+    border-right: 2px solid black;
+    float: left;
+    margin-left: 2%;
+    padding-right: 8%;
+}
+
+.contact-bar ul:nth-child(2){
+    float: left;
+    padding-left: 8%;
+}
+
+.contact-bar ul {
+    list-style: none;
+    margin: 0;
+}
+.pdf{
+   color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Shadows into light, cursive;
+    font-weight: bold;
+    background: black;
+    opacity: 0.8;
+    padding: 1.5em;
+    border-radius: 1em;
+    box-shadow: 0 2px 3px white;
+    
+    transition: all ease 0.25s;
+    text-align: center;
+    margin-left: 47%;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: white;
+}
+.third{
+    width: 33.33%;
+}
+.row:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.row div{
+    float: left;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.test{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fourth{
+    width: 25%;
+}
+.wrapper23{
+     margin-left: auto;
+  margin-right: auto;    
+
+  width: 20%; 
+
+  padding-right: 10px; 
+  padding-left:  10px; 
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3em; 
+}
+.wrapper23:after{
+    clear: both;
+    content: "";
+    display: table;
+}
